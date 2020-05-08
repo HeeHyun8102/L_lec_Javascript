@@ -1,0 +1,8 @@
+javascript data type
+    number(숫자열), 1 + 1 =2
+    string(문자열"") '1' + '1' = '11' 
+
+javascript string
+    "strign length".length
+    "to upper case".toUpperCase
+    "count alphabet".indexof('a')
