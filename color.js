@@ -1,19 +1,24 @@
 var Links ={
-    SetColor:function (color){
-        var alist = document.querySelectorAll('a');
-        var i =0;
-        while(i < alist.length){
-            alist[i].style.color = color;
-            i = i +1;
-    }
+    SetColor:function(color){
+        
+    //     var alist = document.querySelectorAll('a');
+    //     var i =0;
+    //     while(i < alist.length){
+    //         alist[i].style.color = color;
+    //         i = i +1;
+    // }
+    $('a').css('color', color);
+}
 }
 
 var Body ={
-    SetColor:function (color){
-        document.querySelector('body').style.color = color;
+    SetColor:function(color){
+        // document.querySelector('body').style.color = color;
+        $('body').css('color', color);
     },
-    SetBackgroundColor:function (color){
-        document.querySelector('body').style.backgroundColor = color;
+    SetBackgroundColor:function(color){
+        // document.querySelector('body').style.backgroundColor = color;
+        $('body').css('backgroundColor', color);
     }
 }
 
